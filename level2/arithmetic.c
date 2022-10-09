@@ -32,19 +32,19 @@ main () {
  printf("The remainder when g is divided by f is: %d \n",modul);
  
 // More operations
- int n1;
- int n2;
+ float n1;
+ float n2;
 
  printf("For the next part, input a two digit number (xy)- ");
  n1 = getchar();
  n2 = getchar();
- printf("You have entered %c + %c. \n", n1, n2);
- printf("Few possibilities are: \nx + y = %d \n", n1 + n2);
- printf("x - y = %d \n", n1 - n2 );
- printf("x / y = %d \n", n1 / n2 );
- printf("x %% y = %d \n", n1 % n2 );
+ printf("You have entered %f + %f. \n", n1, n2);
+ printf("Few possibilities are: \nx + y = %f \n", n1 + n2);
+ printf("x - y = %f \n", n1 - n2 );
+ printf("x / y = %f \n", n1 / n2 );
+ printf("x * y = %f \n", n1 * n2 );
  n1 += n2;
- printf(" n1 += n2 gives; %d \n", n1);
+ printf(" n1 += n2 gives; %f \n", n1);
 
 /*
 //Lets try wotking with getc and int
