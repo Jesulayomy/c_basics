@@ -38,6 +38,22 @@ main () {
  printf("For the next part, input a two digit number (xy)- ");
  n1 = getchar();
  n2 = getchar();
- printf("You have entered %c0 + %c. \n", n1, n2);
+ printf("You have entered %c + %c. \n", n1, n2);
+ printf("Few possibilities are: \nx + y = %d \n", n1 + n2);
+ printf("x - y = %d \n", n1 - n2 );
+ printf("x / y = %d \n", n1 / n2 );
+ printf("x %% y = %d \n", n1 % n2 );
+ n1 += n2;
+ printf(" n1 += n2 gives; %d \n", n1);
+
+/*
+//Lets try wotking with getc and int
+ int h = 12;
+ int j;
+ printf("\n Insert a number:... ");
+ j = getc(stdin);
+ printf("You inserted %d \n", j);
+*/
+
  return 0;
 }
