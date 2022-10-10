@@ -22,15 +22,24 @@ main () {
  int divisio = g / e;
  modul = g % f;
 
-// Results
+// Results, In/Decrement operators
  printf("a=%d b=%d c=%d d=%d e=%d f=%d g=%d \n", a, b, c, d, e, f, g);
  printf("The sum of a and b is: %d \n", summatio);
  printf("The difference between f and c is: %d \n", subtrac);
  printf("The product of d and e is: %d \n", produc);
  printf("The result of g/e is: %d \n",divisio);
  printf("The square of c is: %d \n", squar);
- printf("The remainder when g is divided by f is: %d \n",modul);
+ printf("The remainder when g is divided by f is: %d \n\n",modul);
  
+ printf("a += b ==> %d \n", a += b);
+ printf("a++ ==> %d \n", a++);
+ printf("++a ==> %d \n", ++a);
+ printf(" a = a / 2 ==> %d \n", a /= 2);
+
+
+
+
+/*	This block can be activated
 // More operations
  float n1;
  float n2;
@@ -45,6 +54,8 @@ main () {
  printf("x * y = %f \n", n1 * n2 );
  n1 += n2;
  printf(" n1 += n2 gives; %f \n", n1);
+
+*/
 
 /*
 //Lets try wotking with getc and int
