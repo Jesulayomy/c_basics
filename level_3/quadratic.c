@@ -10,17 +10,23 @@
  *
  * Return: done1 and done2 as values for x1 and x2
  */
-int quad(int a, int b, int c)
+float quad(float a, float b, float c)
 {
 	float disc2, disc, root, left, right, done1, done2;
 
 	disc = ((b * b) - (4 * a * c));
-	root = disc / 2;
+	float n = disc;
+
+	while ((disc - (n / disc)) > 0.00001)
+	{
+		disc = ((disc + (n / disc)) / 2);
+	}
+	root = disc;
 	left = ((-b) / (2 * a));
 	right = (root / (2 * a));
 	done1 = left + right;
 	done2 = left - right;
-	printf("The values are %.0f and %.0f\n", -done1, -done2);
+	printf("The roots of the equation are %.0f and %.0f\n", -done1, -done2);
 
 	return (0);
 }
@@ -32,10 +38,17 @@ int quad(int a, int b, int c)
  */
 int main(void)
 {
-	int ca_lc;
+	float x, y, z;
 
-	ca_lc = quad(1, 6, 8);
+	printf("Enter the values of a, b, then c.\n");
+	printf("Enter a: ");
+	scanf("%f", &x);
+	printf("Enter b: ");
+	scanf("%f", &y);
+	printf("Enter c: ");
+	scanf("%f", &z);
+	quad(x, y, z);
 
-	printf("Thanks for staying.\n");
+	printf("That's all I've got, go away now.\n");
 	return (0);
 }
