@@ -11,7 +11,8 @@ int main(void)
 
 	x = sizeof(int);
 	printf("The sixe of int here is %d.\n", x);
-	printf("The max value of int here is %d\n", (x != 2) ? ~(1 << ((x * 8) - 1)) : ~(1 << 15));
+	printf("The max value of int here is %d\n",
+			(x != 2) ? ~(1 << ((x * 8) - 1)) : ~(1 << 15));
 
-	return(0);
+	return (0);
 }
