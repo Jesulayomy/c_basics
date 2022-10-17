@@ -8,12 +8,15 @@
 int main(void)
 {
 	int i;
-	int arr[10];
+	int j;
+	float arr[3][3] = {1, 0, -2, 0, 4, -1, 3, 5, 2};
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 3; i++)
 	{
-		arr[i] = i + 1;
-		printf("arr[%d] is initialized with %d.\n", i, arr[i]);
+		for (j =0; j < 3; j++)
+		{
+			printf("arr[%d][%d] is: %.0f and is located at %p\n", i, j, arr[i][j], &arr[i][j]);
+		}
 	}
 
 	return (0);
