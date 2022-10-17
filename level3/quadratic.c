@@ -13,21 +13,28 @@
 float quad(float a, float b, float c)
 {
 	float disc2, disc, root, left, right, done1, done2;
-
 	disc = ((b * b) - (4 * a * c));
 	float n = disc;
-
-	while ((disc - (n / disc)) > 0.00001)
+	if (disc < 0)
 	{
-		disc = ((disc + (n / disc)) / 2);
+		printf("This equation has no real roots. Dont break me.\n");
 	}
-	root = disc;
-	left = ((-b) / (2 * a));
-	right = (root / (2 * a));
-	done1 = left + right;
-	done2 = left - right;
-	printf("The roots of the equation are %.0f and %.0f\n", -done1, -done2);
-
+	else
+	{
+		printf("Equation: (%.2f)x*x + (%.2f)x + (%.2f) = 0\n", a, b, c);
+		printf("The Discriminant is: %.2f\n", disc);
+		while ((disc - (n / disc)) > 0.00001)
+		{
+			disc = ((disc + (n / disc)) / 2);
+		}
+		root = disc;
+		printf("root of the disc is: %f\n", root);
+		left = ((-b) / (2 * a));
+		right = (root / (2 * a));
+		done1 = left + right;
+		done2 = left - right;
+		printf("The solutions to the equation are x = %.2f and x = %.2f\n", done1, done2);
+	}
 	return (0);
 }
 
@@ -49,6 +56,5 @@ int main(void)
 	scanf("%f", &z);
 	quad(x, y, z);
 
-	printf("That's all I've got, go away now.\n");
 	return (0);
 }

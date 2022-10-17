@@ -1,5 +1,8 @@
-int main()
+#include <stdio.h>
+
+char main()
 {
-	putchar(98);
-	return 0;
+	printf("This is a test");
+
+	return ('A');
 }
