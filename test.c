@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-char main()
+int main(void)
 {
-	printf("This is a test");
+	printf("This is a test\n");
 
-	return ('A');
+	return (0);
 }
