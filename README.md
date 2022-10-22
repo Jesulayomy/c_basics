@@ -1,6 +1,6 @@
 ![Banner C basics practice](./resources/C_Basics_Practice.png)
 # C Basics practice repository
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Jesulayomy/c_basics?style=plastic)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Jesulayomy/c_basics?style=plastic)![GitHub contributors](https://img.shields.io/github/contributors/Jesulayomy/c_basics)
 
 ```commandline
  All commit message "auto commit" is done by shell scripting in git-default_acp.sh file.
