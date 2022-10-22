@@ -1,3 +1,4 @@
+![Banner C basics practice](./resources/C_Basics_Practice.png)
 # My c Basics practice repository
 
 ```c
