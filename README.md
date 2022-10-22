@@ -1,16 +1,16 @@
-![Banner C basics practice](./resources/C_Basics_Practice.png)
-# C Basics practice repository :octocat:
+<center>![Banner C basics practice](./resources/C_Basics_Practice.png)</center>
+# C Basics practice repository 
 
 ```commandline
  All commit message "auto commit" is done by shell scripting in git-default_acp.sh file.
  ```
 
-### Included Libraries
+### Included Libraries :scroll:
 - stdio.h
 - math.h
 - unistd.h
 
-## Projects
+## Projects :gem:
 ### Root
 - [0-4loop.c](0-loop.c):
 	These files uses basic loops to perform different functions
@@ -43,7 +43,7 @@
 - [writing_output.c](writing_output.c):
 	Writes output with putchar.
 
-## Sub-Directories
+## Sub-Directories :briefcase:
 
 ### [level2](leval2)
 - 11L01.c
@@ -60,3 +60,5 @@
 - silmultaneous.c
 - sort.c
 - squares.c
+
+
