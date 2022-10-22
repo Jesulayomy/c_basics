@@ -2,17 +2,14 @@
 # C Basics practice repository
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Jesulayomy/c_basics?style=plastic)	![GitHub contributors](https://img.shields.io/github/contributors/Jesulayomy/c_basics)
 
-```commandline
- All commit message "auto commit" is done by shell scripting in git-default_acp.sh file.
- ```
 
 ### Included Libraries :scroll:
 - stdio.h
 - math.h
 - unistd.h
 
-### ASCII Table :bookamrk_tabs:
-![ASCII TABLE](./resoutces/ascii-table.jpg)
+### ASCII Table :bookmark_tabs:
+![ASCII TABLE](./resources/ascii-table.jpg)
 
 ## Projects :gem:
 ### Root
@@ -74,3 +71,8 @@
 	Sorting an array.
 - [squares.c](level3/squares.c):
 	This uses a while loop to find the square toot of a number. It is a form of the [Babilonian Method](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method).
+
+
+```commandline
+ All commit message "auto commit" is done by shell scripting in git-default_acp.sh file.
+ ```
