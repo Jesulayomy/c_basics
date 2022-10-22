@@ -65,12 +65,16 @@
 	Character arrays.
 - [quadratic.c](level3/quadratic.c):
 	Solves any quadratic equation of the form `ax2 + bx + c = 0`
+![correction for negatives](resources/quadratic-function.png)
 - [silmultaneous.c](level3/silmultaneous.c):
 	This program will solve any silmultaneous equation with two unknowns. (Silmultaneous linear equations only)
 - [sort.c](level3/sort.c):
 	Sorting an array.
 - [squares.c](level3/squares.c):
 	This uses a while loop to find the square toot of a number. It is a form of the [Babilonian Method](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method).
+
+
+
 
 
 ```commandline
