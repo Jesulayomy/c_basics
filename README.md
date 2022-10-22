@@ -1,5 +1,5 @@
-<center>![Banner C basics practice](./resources/C_Basics_Practice.png)</center>
-# C Basics practice repository 
+![Banner C basics practice](./resources/C_Basics_Practice.png)
+# <center> C Basics practice repository </center>
 
 ```commandline
  All commit message "auto commit" is done by shell scripting in git-default_acp.sh file.
