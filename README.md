@@ -11,9 +11,9 @@ git push
 ```
 
 ### Libraries used are:
-#### stdio.h
-#### math.h
-#### unistd.h
+- stdio.h
+- math.h
+- unistd.h
 
 ## Projects
 
@@ -40,10 +40,17 @@ git push
 ## Sub-Directories
 ### level2
 
-### 11L01.c
-### a.out
-### add3.c
-### addresses.c
-### arithmetic.c
-### maxint.c
+#### 11L01.c
+#### a.out
+#### add3.c
+#### addresses.c
+#### arithmetic.c
+#### maxint.c
+
 ### level3
+#### arr.c
+#### characterarr.c
+#### quadratic.c
+#### silmultaneous.c
+#### sort.c
+#### squares.c
