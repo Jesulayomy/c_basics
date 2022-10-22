@@ -1,5 +1,5 @@
 ![Banner C basics practice](./resources/C_Basics_Practice.png)
-# <center> C Basics practice repository </center>
+# C Basics practice repository
 
 ```commandline
  All commit message "auto commit" is done by shell scripting in git-default_acp.sh file.
@@ -45,15 +45,18 @@
 
 ## Sub-Directories :briefcase:
 
-### [level2](leval2)
-- 11L01.c
-- a.out
-- add3.c
-- addresses.c
-- arithmetic.c
-- maxint.c
+### [level2](level2/)
+- [11L01.c](level2/11L01.c):
+	Prints out addresses and content using the address operator `&`.
+- [add3.c](level2/add3.c):
+	Prints addresses using pointers.
+- [arithmetic.c](level2/arithmetic.c):
+	Various arithmetic operations.
+- [maxint.c](level2/maxint.c):
+	Uses the `sizeof()` function to get the size of an integer.
+- [strings.c](level2/strings.c)
 
-### [level3](level3)
+### [level3](level3/)
 - arr.c
 - characterarr.c
 - quadratic.c
