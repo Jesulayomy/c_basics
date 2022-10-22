@@ -1,5 +1,5 @@
 ![Banner C basics practice](./resources/C_Basics_Practice.png)
-# C Basics practice repository
+# C Basics practice repository :octocat:
 
 ```commandline
  All commit message "auto commit" is done by shell scripting in git-default_acp.sh file.
