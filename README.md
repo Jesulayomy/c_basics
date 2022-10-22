@@ -1,6 +1,6 @@
 ![Banner C basics practice](./resources/C_Basics_Practice.png)
 # C Basics practice repository
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Jesulayomy/c_basics?style=plastic)![GitHub contributors](https://img.shields.io/github/contributors/Jesulayomy/c_basics)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Jesulayomy/c_basics?style=plastic)	![GitHub contributors](https://img.shields.io/github/contributors/Jesulayomy/c_basics)
 
 ```commandline
  All commit message "auto commit" is done by shell scripting in git-default_acp.sh file.
@@ -63,11 +63,14 @@
 
 ### [level3](level3/)
 - [arr.c](level3/arr.c):
+	Arrays.
 - [characterarr.c](level3/characterarr.c):
+	Character arrays.
 - [quadratic.c](level3/quadratic.c):
 	Solves any quadratic equation of the form `ax2 + bx + c = 0`
 - [silmultaneous.c](level3/silmultaneous.c):
-- sort.c
-- squares.c
-
-
+	This program will solve any silmultaneous equation with two unknowns. (Silmultaneous linear equations only)
+- [sort.c](level3/sort.c):
+	Sorting an array.
+- [squares.c](level3/squares.c):
+	This uses a while loop to find the square toot of a number. It is a form of the [Babilonian Method](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method).
