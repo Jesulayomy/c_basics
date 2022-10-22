@@ -40,7 +40,7 @@
 	Collects user input and displays it.
 - switch.c:
 	Practicing switch , case, break and continue.
-- [writing_output.c]:
+- [writing_output.c](writing_output.c):
 	Writes output with putchar.
 
 ## Sub-Directories
