@@ -1,5 +1,6 @@
 ![Banner C basics practice](./resources/C_Basics_Practice.png)
 # C Basics practice repository
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Jesulayomy/c_basics?style=plastic)
 
 ```commandline
  All commit message "auto commit" is done by shell scripting in git-default_acp.sh file.
@@ -9,6 +10,9 @@
 - stdio.h
 - math.h
 - unistd.h
+
+### ASCII Table :bookamrk_tabs:
+![ASCII TABLE](./resoutces/ascii-table.jpg)
 
 ## Projects :gem:
 ### Root
@@ -55,12 +59,14 @@
 - [maxint.c](level2/maxint.c):
 	Uses the `sizeof()` function to get the size of an integer.
 - [strings.c](level2/strings.c)
+	Using strings (Strings and character constants, string and character arrays).
 
 ### [level3](level3/)
-- arr.c
-- characterarr.c
-- quadratic.c
-- silmultaneous.c
+- [arr.c](level3/arr.c):
+- [characterarr.c](level3/characterarr.c):
+- [quadratic.c](level3/quadratic.c):
+	Solves any quadratic equation of the form `ax2 + bx + c = 0`
+- [silmultaneous.c](level3/silmultaneous.c):
 - sort.c
 - squares.c
 
