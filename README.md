@@ -74,9 +74,6 @@
 	This uses a while loop to find the square toot of a number. It is a form of the [Babilonian Method](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method).
 
 
-
-
-
 ```commandline
  All commit message "auto commit" is done by shell scripting in git-default_acp.sh file.
  ```
