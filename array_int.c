@@ -2,7 +2,7 @@
 
 int main()
 {
-	int n = 0x00;
+	int n;
 	int a[5] = {0x01, 0x02, 0x03, 0x04, 0x05};
 	int *p;
 	int i;
