@@ -1,32 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
- * main -
+ * main - file input and output
  *
  * Return: 0 at successful exit
  */
-int main()
+int main(void)
 {
-	int num;
 	FILE *fptr;
+	char name[20];
+	char num[15];
 
-	fptr = fopen("/home/vagrant/my_practice/c_basics/file_handling/sample.txt", "w");
-	/* w for write, a for append, r for reading, r+ for r and w, 
-	   w+ r and w(overwrites), a+- for reading and appending text */
-	/* wb for binary write, ab, rb, rb+ for rb and wb(NULL if !exist) 
-	   wb+ for rb and wb(over write), ab+ for rb and ab - binary */
-	printf("Enter a number, will be written with w\n");
-	scanf("%d", &num);
-	fprintf(fptr, "%d\n", num);
+	/**
+	 * w for write, a for append, r for reading, r+ for r and w
+	 * w+ r and w(overwrites), a+- for reading and appending text
+	 * wb for binary write, ab, rb, rb+ for rb and wb(NULL if !exist)
+	 * wb+ for rb and wb(over write), ab+ for rb and ab - binary
+	 */
+
+	fptr = fopen("./store.txt", "a");
+
+	printf("Enter Your name\n");
+	scanf("%s", name);
+	fprintf(fptr, "%s ", name);
+	printf("Enter Your number\n");
+	scanf("%s", num);
+	fprintf(fptr, "%s\n", num);
 	fclose(fptr);
 
-	fptr = fopen("/home/vagrant/my_practice/c_basics/file_handling/sample.txt", "a");
-	printf("Enter another number to be appended with a\n");
-	scanf("%d", &num);
-	fprintf(fptr, "%d\n", num);
-
-	fclose(fptr);
-
-	return(0);
+	return (0);
 }
