@@ -39,5 +39,10 @@ int main(__attribute__((unused)) int argc,__attribute__((unused)) char *argv[])
 
 	free(arr);
 
+	for (i = 0; i < n; i++)
+	{
+		printf("%d\n", arr[i]);
+	}
+
 	return (0);
 }
