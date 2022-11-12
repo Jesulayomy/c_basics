@@ -12,6 +12,7 @@ int main(void)
 	FILE *fptr;
 	char name[20];
 	char num[15];
+	char c;
 
 	/**
 	 * w for write, a for append, r for reading, r+ for r and w
@@ -28,6 +29,13 @@ int main(void)
 	printf("Enter Your number\n");
 	scanf("%s", num);
 	fprintf(fptr, "%s\n", num);
+	fclose(fptr);
+
+	fptr = fopen("./text.txt", "r");
+
+	while ((c = fgetc(fptr)) != 10)
+		putchar(c);
+
 	fclose(fptr);
 
 	return (0);
