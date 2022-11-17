@@ -13,7 +13,7 @@ int main(void)
 	{
 		printf("%c", str1[i]);
 	}
-	
+
 	char copy[i];
 
 	for (i = 0; str1[i]; i++)
