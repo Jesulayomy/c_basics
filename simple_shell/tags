@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+_getenv	_getenv.c	/^char *_getenv(sh_data *shell, char *name)$/;"	f
+add_node_end	path_funcs.c	/^path_l *add_node_end(path_l **head, char *str)$/;"	f
+alt_getenv	aliases.c	/^char *alt_getenv(char **env, char *name)$/;"	f
+check_shell	shell.c	/^char *check_shell(sh_data *shell)$/;"	f
+free_arr2	util_funcs.c	/^void free_arr2(char **arr)$/;"	f
+free_list	path_funcs.c	/^void free_list(path_l *head)$/;"	f
+get_commands	get_commands.c	/^char **get_commands(char *buffer, size_t n)$/;"	f
+get_func	shell.c	/^int (*get_func(char **arr))(sh_data *)$/;"	f
+insert_line	_getline.c	/^void insert_line(char **lineptr, size_t *n, char *buffer, size_t size)$/;"	f
+loop_shell	shell.c	/^void loop_shell(sh_data *shell)$/;"	f
+main	aliases.c	/^int main(int __attribute__((unused))argc, char **__attribute__((unused))argv, char **env)$/;"	f
+main	shell.c	/^int main(int ac, char *av[], char *env[])$/;"	f
+mod_env	util_funcs.c	/^char *mod_env(sh_data *shell)$/;"	f
+my_atoi	util_funcs.c	/^int my_atoi(char *s)$/;"	f
+my_cd	builtins.c	/^int my_cd(sh_data *shell)$/;"	f
+my_env	builtins.c	/^int my_env(sh_data *shell)$/;"	f
+my_exit	builtins.c	/^int my_exit(sh_data *shell)$/;"	f
+my_getline	_getline.c	/^ssize_t my_getline(char **buffer, size_t *n, FILE *stream)$/;"	f
+my_isdigit	util_funcs.c	/^int my_isdigit(char *nstr)$/;"	f
+my_memchr	util_funcs.c	/^void *my_memchr(const void *src_void, int c, size_t length)$/;"	f
+my_memcpy	util_funcs.c	/^void my_memcpy(void *dest, const void *src, unsigned int size)$/;"	f
+my_realloc	util_funcs.c	/^void *my_realloc(void *ptr, unsigned int old_size, unsigned int new_size)$/;"	f
+my_set	builtins.c	/^int my_set(sh_data *shell)$/;"	f
+my_strcat	util_funcs.c	/^char *my_strcat(char *destination, char *source)$/;"	f
+my_strcmp	util_funcs.c	/^int my_strcmp(char *str1, char *str2)$/;"	f
+my_strcpy	util_funcs.c	/^char *my_strcpy(char *destination, char *source)$/;"	f
+my_strdup	util_funcs.c	/^char *my_strdup(char *str)$/;"	f
+my_strlen	util_funcs.c	/^int my_strlen(char *str)$/;"	f
+my_strtok	util_funcs.c	/^char *my_strtok(char *str, const char *delim)$/;"	f
+my_unset	builtins.c	/^int my_unset(sh_data *shell)$/;"	f
+path_to_list	path_funcs.c	/^path_l *path_to_list(char **environ)$/;"	f
+reverse_str	util_funcs.c	/^void reverse_str(char *string)$/;"	f
+rm_comments	get_commands.c	/^int rm_comments(char **buffer)$/;"	f
+search_path	path_funcs.c	/^char *search_path(path_l *list, char *file)$/;"	f
