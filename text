@@ -1,0 +1,90 @@
+== C program for implementation of Newton Raphson Method ==
+
+The functions are:
+	V1(t) = 100(1 - e(-0.2t))
+	V2(t) = 40e(-0.01t)
+Hence g(t) = V1(t) - V2(t)
+	g(t) = 100 - 100e(-0.2t) - 40e(-0.01t)
+	g'(t) = dg(t)/dt = 20e(-0.2t) + 0.4e(-0.01t)
+
+Enter the Initial guess to - Iteration 0		t0 is 6.947553		dt is 1.052447
+Iteration 1		t1 is 6.195452		dt is 0.752101
+Iteration 2		t2 is 5.621951		dt is 0.573500
+Iteration 3		t3 is 5.167437		dt is 0.454514
+Iteration 4		t4 is 4.797843		dt is 0.369594
+Iteration 5		t5 is 4.491737		dt is 0.306106
+Iteration 6		t6 is 4.234710		dt is 0.257027
+Iteration 7		t7 is 4.016592		dt is 0.218118
+Iteration 8		t8 is 3.829929		dt is 0.186663
+Iteration 9		t9 is 3.669095		dt is 0.160834
+Iteration 10		t10 is 3.529740		dt is 0.139355
+Iteration 11		t11 is 3.408433		dt is 0.121307
+Iteration 12		t12 is 3.302424		dt is 0.106009
+Iteration 13		t13 is 3.209477		dt is 0.092947
+Iteration 14		t14 is 3.127751		dt is 0.081726
+Iteration 15		t15 is 3.055717		dt is 0.072033
+Iteration 16		t16 is 2.992093		dt is 0.063624
+Iteration 17		t17 is 2.935795		dt is 0.056299
+Iteration 18		t18 is 2.885899		dt is 0.049896
+Iteration 19		t19 is 2.841617		dt is 0.044282
+Iteration 20		t20 is 2.802269		dt is 0.039348
+Iteration 21		t21 is 2.767269		dt is 0.035001
+Iteration 22		t22 is 2.736105		dt is 0.031163
+Iteration 23		t23 is 2.708335		dt is 0.027770
+Iteration 24		t24 is 2.683572		dt is 0.024764
+Iteration 25		t25 is 2.661474		dt is 0.022098
+Iteration 26		t26 is 2.641744		dt is 0.019730
+Iteration 27		t27 is 2.624120		dt is 0.017625
+Iteration 28		t28 is 2.608368		dt is 0.015751
+Iteration 29		t29 is 2.594285		dt is 0.014083
+Iteration 30		t30 is 2.581689		dt is 0.012596
+Iteration 31		t31 is 2.570420		dt is 0.011269
+Iteration 32		t32 is 2.560334		dt is 0.010085
+Iteration 33		t33 is 2.551306		dt is 0.009028
+Iteration 34		t34 is 2.543222		dt is 0.008084
+Iteration 35		t35 is 2.535983		dt is 0.007239
+Iteration 36		t36 is 2.529499		dt is 0.006485
+Iteration 37		t37 is 2.523689		dt is 0.005809
+Iteration 38		t38 is 2.518484		dt is 0.005205
+Iteration 39		t39 is 2.513820		dt is 0.004664
+Iteration 40		t40 is 2.509639		dt is 0.004180
+Iteration 41		t41 is 2.505892		dt is 0.003747
+Iteration 42		t42 is 2.502533		dt is 0.003359
+Iteration 43		t43 is 2.499522		dt is 0.003011
+Iteration 44		t44 is 2.496823		dt is 0.002700
+Iteration 45		t45 is 2.494402		dt is 0.002420
+Iteration 46		t46 is 2.492232		dt is 0.002170
+Iteration 47		t47 is 2.490286		dt is 0.001946
+Iteration 48		t48 is 2.488541		dt is 0.001745
+Iteration 49		t49 is 2.486976		dt is 0.001565
+Iteration 50		t50 is 2.485572		dt is 0.001404
+Iteration 51		t51 is 2.484313		dt is 0.001259
+Iteration 52		t52 is 2.483184		dt is 0.001129
+Iteration 53		t53 is 2.482172		dt is 0.001013
+Iteration 54		t54 is 2.481263		dt is 0.000908
+Iteration 55		t55 is 2.480449		dt is 0.000815
+Iteration 56		t56 is 2.479718		dt is 0.000731
+Iteration 57		t57 is 2.479062		dt is 0.000655
+Iteration 58		t58 is 2.478475		dt is 0.000588
+Iteration 59		t59 is 2.477947		dt is 0.000527
+Iteration 60		t60 is 2.477474		dt is 0.000473
+Iteration 61		t61 is 2.477050		dt is 0.000424
+Iteration 62		t62 is 2.476669		dt is 0.000381
+Iteration 63		t63 is 2.476327		dt is 0.000342
+Iteration 64		t64 is 2.476021		dt is 0.000306
+Iteration 65		t65 is 2.475746		dt is 0.000275
+Iteration 66		t66 is 2.475500		dt is 0.000247
+Iteration 67		t67 is 2.475279		dt is 0.000221
+Iteration 68		t68 is 2.475080		dt is 0.000198
+Iteration 69		t69 is 2.474902		dt is 0.000178
+Iteration 70		t70 is 2.474743		dt is 0.000160
+Iteration 71		t71 is 2.474599		dt is 0.000143
+Iteration 72		t72 is 2.474471		dt is 0.000128
+Iteration 73		t73 is 2.474356		dt is 0.000115
+Iteration 74		t74 is 2.474252		dt is 0.000103
+Iteration 75		t75 is 2.474159		dt is 0.000093
+N-R Iteration converged in 76 Iterations
+
+The value of the root is : 2.474159
+Potential V1 39.0
+Potential V2 39.0
